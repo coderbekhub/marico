@@ -13,6 +13,7 @@ $color_black: #000;
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 * {
@@ -36,6 +37,11 @@ body {
   padding-top: 46px;
   display: flex;
   margin-bottom: 128px;
+    .menu_btn {
+      width: 50px;
+      height: 50px;
+      // display: none;
+    }
 }
 
 .nav_list {
@@ -212,7 +218,6 @@ body {
   }
   line-height: 112px;
   color: $color_white;
-  // margin-bottom: 64px;
 }
 
 .creators_info {
@@ -393,6 +398,7 @@ body {
 
 .card {
   width: 854px;
+  height: 666px;
   padding: 33px 0 0 45px;
   font-family: 'Poppins';
   margin-right: 23px;

@@ -10,6 +10,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {
@@ -36,6 +39,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 128px;
+}
+
+.nav_bar .menu_btn {
+  width: 50px;
+  height: 50px;
 }
 
 .nav_list {
@@ -394,6 +402,7 @@ body {
 
 .card {
   width: 854px;
+  height: 666px;
   padding: 33px 0 0 45px;
   font-family: 'Poppins';
   margin-right: 23px;
